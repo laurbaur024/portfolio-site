@@ -120,18 +120,17 @@ img.project {
 }
 
 .contact-me h2 {
+  display: flex;
   margin-bottom: 20px;
   font-size: 36px;
 }
 
+
 .footer {
   padding: 30px;
   clear: both;
-  font-family: 'Trebuchet MS', cursive, sans-serif;
+  font-family: 'Gill Sans', cursive, sans-serif;
   text-align: center;
-}
-
-.footer h2 {
   font-size: 20px;
 }
 
@@ -148,17 +147,18 @@ section article.my-work  {
 }
 
 section header.facebook a {
-  display: flex
+  display: flex;
+  flex: 2;
 }
 
 @media screen and (max-width: 992px) {
-  .card {
-    
+  div.parts {
+    flex-shrink:inherit;
   }   
 }
 @media screen and (max-width: 768px) {
-  .card {
-    width: 100%;
+  div.parts {
+    flex-shrink:inherit;
   }
 }
 

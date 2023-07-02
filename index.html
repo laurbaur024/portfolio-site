@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="resetsheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Lauren's Portfolio</title>
@@ -27,6 +28,7 @@
     </header>
     <figure class="background"></figure>
     <section class="content">
+      <div class="parts">
         <article id="about-me" class="about-me" class="card">
             <img src="./assets/images/headshot.png" alt="Lauren smiling" class="float-left" />
             <h2>About Me</h2>
@@ -34,11 +36,13 @@
               Thanks for stopping by my portfolio! My name is Lauren. I am currently enrolled in a coding bootcamp through the University of Minnesota. We are learning and creating new things each day. I will update this website with new projects as I complete them as well as the new skills that I am learning. Thanks for taking a look at my work!
             </p>
         </article>
+      </div>
+      <div class="parts">
         <article id="my-work" class="my-work" class="card">
             <h2>My Work</h2>
-            <section class="work">
-              <header class="facebook">Facebook</header>
-              <a href="https://www.facebook.com/" target="_blank"><img src="./assets/images/facebook.jpg" alt="facebook"></a>
+            <section class="work" class="facebook">
+              <header >Facebook</header>
+              <a href="https://www.facebook.com/" target="_blank"><img id="facebook" src="./assets/images/facebook.jpg" alt="facebook"></a>
             </section>
             <section class="work">
               <header>Instagram</header>
@@ -57,6 +61,8 @@
               <a href="https://laurbaur024.github.io/semantic-html/" target="_blank"><img class="big" src="./assets/images/semantic-html.png" alt="semantic HTML"></a>
             </section>
         </article>
+      </div>
+      <div class="parts">  
         <article id="contact-me" class="contact-me" class="card">
             <img src="./assets/images/contact-me.png" alt="a phone symbol" class="float-left" />
             <h2>Contact Me</h2>
@@ -64,6 +70,7 @@
               <a href="mailto:laureniscool@gmail.com">E-Mail</a>
               <a href="https://github.com/laurbaur024" target="_blank">GitHub</a> 
         </article>
+      </div>  
     </section>
 
     <footer class="footer">
