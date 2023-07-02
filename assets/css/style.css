@@ -10,7 +10,7 @@ body {
 
 .header {
   padding: 20px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'helvetica', cursive, sans-serif;
   background-color: #2d3032;
   color: #9615db;
 }
@@ -24,7 +24,7 @@ body {
   padding-top: 15px;
   margin-right: 20px;
   float: right;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Gill Sans', cursive, sans-serif;
   font-size: 20px;
 }
 
@@ -43,11 +43,11 @@ a {
 }
 
 p {
-  font-size: 16px;
+  font-size: 30px;
 }
 
-.hero {
-  height: 400px;
+.background {
+  height: 300px;
   width: 100%;
   margin-bottom: 25px;
   background-image: url("../images/keyboard.jpg");
@@ -60,81 +60,20 @@ p {
   margin-right: 25px;
 }
 
-.float-right {
-  float: right;
+img.project {
   margin-left: 25px;
 }
 
 .content {
   width: 98%;
-  display: inline-block;
   margin-left: 20px;
-}
-
-.benefits {
-  margin-right: 20px;
-  padding: 20px;
-  clear: both;
-  float: right;
-  width: 20%;
-  height: 100%;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  background-color: #2589bd;
-}
-
-.benefit-lead {
-  margin-bottom: 32px;
-  color: #ffffff;
-}
-
-.benefit-brand {
-  margin-bottom: 32px;
-  color: #ffffff;
-}
-
-.benefit-cost {
-  margin-bottom: 32px;
-  color: #ffffff;
-}
-
-.benefit-lead h3 {
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-.benefit-brand h3 {
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-.benefit-cost h3 {
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-.benefit-lead img {
-  display: block;
-  margin: 10px auto;
-  max-width: 150px;
-}
-
-.benefit-brand img {
-  display: block;
-  margin: 10px auto;
-  max-width: 150px;
-}
-
-.benefit-cost img {
-  display: block;
-  margin: 10px auto;
-  max-width: 150px;
 }
 
 .about-me {
   margin-bottom: 20px;
   padding: 50px;
   height: 300px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Gill Sans', cursive, sans-serif;
   background-color: #7d7f80;
   color: #ffffff;
 }
@@ -143,7 +82,7 @@ p {
   margin-bottom: 20px;
   padding: 50px;
   height: 300px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Gill Sans', cursive, sans-serif;
   background-color: #7d7f80;
   color: #ffffff;
 }
@@ -152,7 +91,7 @@ p {
   margin-bottom: 20px;
   padding: 50px;
   height: 300px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Gill Sans', cursive, sans-serif;
   background-color: #7d7f80;
   color: #ffffff;
 }
@@ -164,6 +103,7 @@ p {
 .my-work img {
   max-height: 200px;
 }
+
 
 .contact-me img {
   max-height: 200px;
@@ -187,7 +127,7 @@ p {
 .footer {
   padding: 30px;
   clear: both;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Trebuchet MS', cursive, sans-serif;
   text-align: center;
 }
 
@@ -197,71 +137,33 @@ p {
 
 a:hover {
   font-weight: bold;
+  background-color: #2d3032;
 }
 
-
-/* * {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #fffbf0;
-  box-sizing: border-box;
-}
-
-div.mainhead {
+section article.my-work  {
   display: flex;
-  justify-content:flex-end;
-  background-color: aqua;
-} */
-
-/* h1 { 
-  color: black;
-  background: #e4ddf4;
-  width: 100%;
-  font-size: 40px;
-  text-align: left;
-  padding: 40px;
-  padding-left: 10px;
+  flex-wrap: wrap;
+  flex: 2;
+  justify-content: space-around;
 }
 
-ul {
-  list-style-type: none;
-  background-color: transparent;
-  display: inline;
-  text-align: right;
+section header.facebook a {
+  display: flex
 }
 
-
-p {
-  background-color: #e4ddf4;
+@media screen and (max-width: 992px) {
+  .card {
+    
+  }   
+}
+@media screen and (max-width: 768px) {
+  .card {
+    width: 100%;
+  }
 }
 
-li {
-  background-color: #943d24;
-  padding: 10px;
+@media screen and (max-width: 768px) {
+ .header {
+  display: none;
+ } 
 }
-
-a {
-  background-color: #943d24;
-  color: black;
-}
-
-a:link {
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: none;
-  font-weight: bold;
-}
-
-a:active {
-  text-decoration: none;
-}
-
-nav {
-  display:flex;
-  align-content: center;
-  background-color: #943d24;
-}
-
-
- */
